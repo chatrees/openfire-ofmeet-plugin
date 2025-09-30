@@ -11,7 +11,7 @@
     
     <groupId>org.igniterealtime.openfire</groupId>
     <artifactId>ofmeet</artifactId>
-    <version>0.9.9-SNAPSHOT</version>	
+    <version>0.9.10-SNAPSHOT</version>	
     
     <name>Openfire Meetings</name>
     <description>HTTP Online meeting solution for Openfire using Jitsi Meet</description>
@@ -26,6 +26,8 @@
         <testSourceDirectory>src/test</testSourceDirectory>
         <plugins>    
             <plugin>
+			   <!--url>https://download.jitsi.org/jitsi-meet/src/jitsi-meet-1.0.8614.tar.bz2</url-->
+			   
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>2.7</version>
                 <executions>
