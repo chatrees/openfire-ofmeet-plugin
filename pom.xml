@@ -6,12 +6,12 @@
     <parent>
         <artifactId>plugins</artifactId>
         <groupId>org.igniterealtime.openfire</groupId>
-        <version>5.0.0</version>
+        <version>5.0.1-jakarta-04072025</version>
     </parent>
     
     <groupId>org.igniterealtime.openfire</groupId>
     <artifactId>ofmeet</artifactId>
-    <version>0.9.8</version>	
+    <version>0.9.8-jakarta-29012026</version>
     
     <name>Openfire Meetings</name>
     <description>HTTP Online meeting solution for Openfire using Jitsi Meet</description>
@@ -52,8 +52,8 @@
                 <artifactId>maven-assembly-plugin</artifactId>
             </plugin>
 			<plugin>
-				<groupId>org.eclipse.jetty.ee8</groupId>
-				<artifactId>jetty-ee8-jspc-maven-plugin</artifactId>
+				<groupId>org.eclipse.jetty.ee9</groupId>
+				<artifactId>jetty-ee9-jspc-maven-plugin</artifactId>
 			</plugin>         
         </plugins>
     </build>
@@ -288,8 +288,8 @@
 		</dependency> 
 		
 		<dependency>
-			<groupId>org.eclipse.jetty.ee8.websocket</groupId>
-			<artifactId>jetty-ee8-websocket-jetty-client</artifactId>
+			<groupId>org.eclipse.jetty.ee9.websocket</groupId>
+			<artifactId>jetty-ee9-websocket-jetty-client</artifactId>
 			<version>${jetty.version}</version>
 		</dependency>	
 
@@ -308,8 +308,8 @@
 		</dependency>
 
         <dependency>
-            <groupId>org.eclipse.jetty.ee8.websocket</groupId>
-            <artifactId>jetty-ee8-websocket-jetty-server</artifactId>
+            <groupId>org.eclipse.jetty.ee9.websocket</groupId>
+            <artifactId>jetty-ee9-websocket-jetty-server</artifactId>
             <version>${jetty.version}</version>
         </dependency>	
 
