@@ -6,7 +6,7 @@
     <parent>
         <artifactId>plugins</artifactId>
         <groupId>org.igniterealtime.openfire</groupId>
-        <version>5.0.1-jakarta-04072025</version>
+        <version>5.0.3-jakarta-29012026</version>
     </parent>
     
     <groupId>org.igniterealtime.openfire</groupId>
